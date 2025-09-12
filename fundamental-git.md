@@ -6,11 +6,18 @@
 
   - $ git init
   - $ git add <file(s)>
+  - $ git add . (untuk menambahkan seluruh file ke staging area)
   - $ git status
   - $ git commit
   - $ git config
   - $ git branch
   - $ git help
+  - $ git log (untuk mentracking perubahan)
+  - $ git log -2 (mentracking 2 perubahan terakhir)
+  - git checkout (untuk mengembalikan file yg hilang)
+    - git checkout 7982b -- <file(s)>
+      - 7982b itu adalah hash yg dimiliki saat commit
+        - diambil 5 huruf / angka pertama
 
 - 3 Area pada repo Git:
   - Working tree
