@@ -13,7 +13,9 @@
   - $ git branch
   - $ git help
   - $ git log (untuk mentracking perubahan)
-  - $ git log -2 (mentracking 2 perubahan terakhir)
+
+    - $ git log -2 (mentracking 2 perubahan terakhir)
+
   - git checkout (untuk mengembalikan file yg hilang)
     - git checkout 7982b -- <file(s)>
       - 7982b itu adalah hash yg dimiliki saat commit
