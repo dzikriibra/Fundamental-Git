@@ -17,9 +17,13 @@
     - $ git log -2 (mentracking 2 perubahan terakhir)
 
   - git checkout (untuk mengembalikan file yg hilang)
+
     - git checkout 7982b -- <file(s)>
       - 7982b itu adalah hash yg dimiliki saat commit
         - diambil 5 huruf / angka pertama
+
+  - Jika posisi file nya M / modified maka bisa langsung commit tanpa add dulu
+    - git commit -a -m / git commit -am "message.."
 
 - 3 Area pada repo Git:
   - Working tree
