@@ -10,11 +10,18 @@
   - $ git status
   - $ git commit
   - $ git config
-  - $ git branch
+
+  - $ git branch (melihat branch yg dimiliki)
+
+    - $ git branch <nama_branch> (membuat new branch)
+    - $ git checkout <nama_branch> (untuk berpindah antar branch)
+
   - $ git help
   - $ git log (untuk mentracking perubahan)
 
     - $ git log -2 (mentracking 2 perubahan terakhir)
+    - git log --all --decorate --oneline --graph (memperlihatkan visualisasi branch dalam bentuk graph)
+      - untuk memudahkan bisa memakai ini: alias graph="git log --all --decorate --oneline --graph"
 
   - git checkout (untuk mengembalikan file yg hilang)
 
