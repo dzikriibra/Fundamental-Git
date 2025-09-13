@@ -30,7 +30,19 @@
         - diambil 5 huruf / angka pertama
 
   - Jika posisi file nya M / modified maka bisa langsung commit tanpa add dulu
+
     - git commit -a -m / git commit -am "message.."
+
+  - Merge
+
+    - Fast Forward
+
+      - $ git merge <nama_branch> (untuk menyatukan branch satu dgn lainnya)
+      - $ git branch --merged (untuk melihat branch mana yg sudah disatukan)
+      - $ git branch -d <nama_branch> (untuk menghapus branch yg sudah di merge)
+      - $ git branch -d <nama_branch> (untuk menghapus branch yg belum di merge)
+
+    - Three-way Merge
 
 - 3 Area pada repo Git:
   - Working tree
