@@ -35,14 +35,14 @@
 
   - Merge
 
-    - Fast Forward
+    - Fast Forward (Kondisi ketika root branch memiliki jalur = direct path)
 
       - $ git merge <nama_branch> (untuk menyatukan branch satu dgn lainnya)
       - $ git branch --merged (untuk melihat branch mana yg sudah disatukan)
       - $ git branch -d <nama_branch> (untuk menghapus branch yg sudah di merge)
       - $ git branch -d <nama_branch> (untuk menghapus branch yg belum di merge)
 
-    - Three-way Merge
+    - Three-way Merge (Kondisi ketika root branch tidak memiliki jalur)
 
 - 3 Area pada repo Git:
   - Working tree
