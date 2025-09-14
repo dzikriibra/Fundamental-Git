@@ -33,7 +33,7 @@
 
     - git commit -a -m / git commit -am "message.."
 
-  - Merge
+  - Git Merge
 
     - Fast Forward (Kondisi ketika root branch memiliki jalur = direct path)
 
