@@ -10,6 +10,7 @@
   - $ git status
   - $ git commit
   - $ git config
+  - $ git clone (untuk mencopy ke local)
 
   - $ git branch (melihat branch yg dimiliki)
 
@@ -45,6 +46,10 @@
       - $ git branch -d <nama_branch> (untuk menghapus branch yg belum di merge)
 
     - Three-way Merge (Kondisi ketika root branch tidak memiliki jalur)
+
+  - Git Remote
+    - $ git remote add origin <link-repo> (untuk menginisialisasi repo local ke github)
+    - $ git push -u origin <nama_branch> (untuk mendorong repo local ke github)
 
 - 3 Area pada repo Git:
   - Working tree
