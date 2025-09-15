@@ -48,6 +48,8 @@
 
     - Three-way Merge (Kondisi ketika root branch tidak memiliki jalur)
 
+  - Git Rebase
+
   - Git Remote
     - $ git remote add origin <link-repo> (untuk menginisialisasi repo local ke github)
     - $ git push -u origin <nama_branch> (untuk mendorong repo local ke github)
