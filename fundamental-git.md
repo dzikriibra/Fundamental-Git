@@ -48,7 +48,7 @@
 
     - Three-way Merge (Kondisi ketika root branch tidak memiliki jalur)
 
-  - Git Rebase
+  - Git Rebase (perintah di Git untuk memindahkan (atau “memutar ulang”) commit dari satu branch ke atas commit branch lain.)
 
   - Git Remote
     - $ git remote add origin <link-repo> (untuk menginisialisasi repo local ke github)
