@@ -26,10 +26,11 @@
 
   - git checkout (untuk mengembalikan file yg hilang)
 
-    - git checkout 7982b -- <file(s)>
+    - $ git checkout -b <nama-branch> (untuk membuat sekaligus memindahkan branch)
+    - $ git checkout 7982b -- <file(s)>
       - 7982b itu adalah hash yg dimiliki saat commit
         - diambil 5 huruf / angka pertama
-    - git checkout 7982b3b (untuk berpindah ke commit sebelumnya)
+    - $ git checkout 7982b3b (untuk berpindah ke commit sebelumnya)
       - 7982b3b (mengambil 7 hash commit pertama)
 
   - Jika posisi file nya M / modified maka bisa langsung commit tanpa add dulu
