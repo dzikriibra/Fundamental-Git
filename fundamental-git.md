@@ -10,7 +10,12 @@
   - $ git status
   - $ git commit
   - $ git config
+
+    - $ git config --global user.name/email (untuk merubah username/email)
+
   - $ git clone (untuk mencopy ke local)
+
+    - $ git clone <link_repo>
 
   - $ git branch (melihat branch yg dimiliki)
 
